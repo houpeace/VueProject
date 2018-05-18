@@ -1,0 +1,83 @@
+.cui-panel {
+    border-radius: 0;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    font-size: 14px;
+    min-width: 260px;
+    margin-bottom: 20px;
+    .panel-heading {
+        background-color: #ffffff;
+        border-color: #e8e8e8;
+        border-image: none;
+        border-style: solid solid none;
+        border-width: 3px 0 0;
+        color: inherit;
+        margin-bottom: 0;
+        padding: 8px 15px;
+        border-radius: 0;
+        .heading-title {
+            font-weight: bold;
+            font-size: 18px;
+            &::before {
+                font-family: 'FontAwesome' !important;
+                content: "\f022";
+                padding-right: 10px;
+                font-weight: normal;
+            }
+        }
+    }
+    .panel-body {
+        background-color: #ffffff;
+        padding: 10px;
+        border-color: #e7eaec;
+        border-image: none;
+        border-style: solid solid none;
+        border-width: 1px 0;
+        min-height: 40px;
+    }
+    .panel-btn {
+        margin-bottom: 15px;
+    }
+    .panel-tip{
+        background:rgba(255, 204, 102, 1);
+        line-height: 34px;
+        padding: 0 10px;
+        margin: 10px 0;
+        .icon{
+            color: #6f6f0e;
+            font-size: 18px;
+            margin-right: 4px;
+        }
+    }
+}
+.jq-pannel{
+     margin-bottom: 20px;
+    .panel-heading {
+        margin-bottom: 0;
+        padding: 8px 0;
+        border-radius: 0;
+        .heading-title {
+            font-size: 14px;
+            &::after {
+               content: ">";
+                padding-left: 5px;
+                font-weight: 900;
+                color: #999;
+                font-size: 14px;
+                font-family: monospace;
+                display: inline-block;
+            }
+            &-open::after{
+                transform: rotate(90deg);
+                padding:0 0  2px;
+                margin-bottom: -5px;
+            }
+        }
+    }
+    .panel-body {
+        background-color: #ffffff;
+        padding: 10px;
+        border:1px solid #e7eaec;
+        min-height: 40px;
+    }
+}

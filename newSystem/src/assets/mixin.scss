@@ -1,0 +1,32 @@
+@charset "utf-8";  
+@mixin wh($width:0,$height:0) {
+   width: $width;
+   height: $height;
+ }
+ @mixin toe(){
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    overflow: hidden;
+}
+@mixin absbr($bottom:0,$right:0){
+    position: absolute;
+    bottom:$bottom!important;
+    right:$right!important;
+}
+@mixin absbl($bottom:0,$left:0){
+    position: absolute;
+    bottom:$bottom!important;
+    left:$left!important;
+}
+@mixin abstr($top:0,$right:0){
+    position: absolute;
+    top:$top!important;
+    right:$right!important;
+}
+@mixin abstl($top:0,$left:0){
+    position: absolute;
+    top:$top!important;
+    left:$left!important;
+}
+ 

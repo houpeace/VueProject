@@ -1,0 +1,19 @@
+@charset "utf-8";
+@import "./_reset";
+@import "./_panel";
+@import "./element-ui-adjust.scss";
+
+.fr{
+	float: right;
+}
+.el-table-center,.el-table-center th{
+	text-align: center!important;
+}
+.el-form-item-min {
+  .el-form-item__content{
+      width: 100px;
+    }
+}
+.el-form-item{
+	
+}

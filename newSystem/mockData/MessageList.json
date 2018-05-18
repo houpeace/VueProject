@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "name": "请求参数1",
+      "requestData": {},
+      "responseData": [
+        {
+          "message": "message1",
+          "uploadDate": "2018-05-13",
+          "statue": 1
+        },
+        {
+          "message": "message2",
+          "uploadDate": "2018-05-14",
+          "statue": 0
+        },
+        {
+          "message": "message3",
+          "uploadDate": "2018-05-15",
+          "statue": 1
+        },
+        {
+          "message": "message4",
+          "uploadDate": "2018-05-16",
+          "statue": 1
+        }
+      ]
+    }
+  ],
+  "name": "消息",
+  "url": "/message/list"
+}

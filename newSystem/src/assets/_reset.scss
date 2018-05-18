@@ -1,0 +1,79 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+dt,dd{display: inline;}
+body,textarea,button,input,select{font-family: 'Microsoft YaHei','Avenir', Helvetica, Arial, sans-serif;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img { border:0;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+a,
+textarea,
+input,
+input[type=button],
+button {
+    outline: 0;
+    &:focus {
+        outline: 0!important;
+    }
+}
+textarea:disabled{
+	background-color: #fafafa;
+}
+div[disabled]{background-color: #fafafa;}
+textarea{
+	resize: none;
+}
+body{
+    font-size: 14px;
+}
+a{
+    color:#0072c5;
+}
+.gray{color: #999;}
+.red{color: #f00;}
+.green{color: #5CB85E;}
+.orange{color: #FF9802;}
+.blue{color: #0072c5;}
+.bg-gray{color: #f9f9f9;}
+.fw-normal{font-weight: normal;}
+.fs12{font-size: 12px;}
+.fs14{font-size: 14px;}
+.fs16{font-size: 16px;}
+.fs18{font-size: 18px;}
+.ml10{margin-left: 10px;}
+.mr10{margin-right: 10px !important;}
+.mr20{margin-right: 20px !important;}
+.mt10{margin-top: 10px !important;}
+.mb10{margin-bottom: 10px !important;}
+.mb20{margin-bottom: 20px !important;}
+.mb50{margin-bottom: 50px !important;}
+.w40{width: 40px !important;}
+.w50{width: 50px !important;}
+.w100{width: 100px !important;}
+.w120{width: 120px !important;}
+.l-h34{line-height: 34px !important;}
+.min-w120{min-width: 120px !important;}  
+.cursor-p{cursor: pointer;} 
+
+
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+    background: rgba(0,0,0,.1);
+}
+::-webkit-scrollbar:hover {
+    background: rgba(0, 0, 0, .2)
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, .2);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    -webkit-box-shadow: inset 0px 0px 1px rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .2)
+}

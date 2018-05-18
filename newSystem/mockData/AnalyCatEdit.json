@@ -1,0 +1,22 @@
+{
+  "url": "/analy/cat/edit",
+  "data": {
+    "success": true,
+    "msg": null,
+    "data": {
+      "remark": "指标筛选条件",
+      "createBy": 75,
+      "updateBy": 75,
+      "isDeleted": 0,
+      "orderNum": 100,
+      "updateTime": "2017-10-30 10:24:22",
+      "catName": "指标筛选条件",
+      "catType": 1,
+      "createTime": "2017-10-24 16:44:10",
+      "id": 31
+    }
+  },
+  "name": "/analy/cat/edit",
+  "id": "",
+  "duration": ""
+}
